@@ -1,5 +1,5 @@
 //
-//  DTSViewController.h
+//  DTSBlankViewController.h
 //  DarkPagination
 //
 //  Created by David Smith on 5/13/12.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DTSViewController : UIViewController
+#import "DTSPagedViewController.h"
+@interface DTSBlankViewController : DTSPagedViewController
 
 @end

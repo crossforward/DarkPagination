@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class DTSViewController;
+@class DTSRootViewController;
 
 @interface DTSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) DTSViewController *viewController;
+@property (strong, nonatomic) DTSRootViewController *viewController;
 
 @end

@@ -13,8 +13,11 @@
 		F7F79E8915602C7E005010E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F79E8715602C7E005010E7 /* InfoPlist.strings */; };
 		F7F79E8B15602C7E005010E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E8A15602C7E005010E7 /* main.m */; };
 		F7F79E8F15602C7E005010E7 /* DTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */; };
-		F7F79E9215602C7E005010E7 /* DTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E9115602C7E005010E7 /* DTSViewController.m */; };
-		F7F79E9515602C7E005010E7 /* DTSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F79E9315602C7E005010E7 /* DTSViewController.xib */; };
+		F7F79ED315602CBD005010E7 /* DTSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79ECE15602CBD005010E7 /* DTSRootViewController.m */; };
+		F7F79ED415602CBD005010E7 /* DTSDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79ED015602CBD005010E7 /* DTSDataViewController.m */; };
+		F7F79ED515602CBD005010E7 /* DTSModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79ED215602CBD005010E7 /* DTSModelController.m */; };
+		F7F79ED815603121005010E7 /* DTSBlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79ED715603121005010E7 /* DTSBlankViewController.m */; };
+		F7F79EDB1560320B005010E7 /* DTSPagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79EDA1560320A005010E7 /* DTSPagedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,22 @@
 		F7F79E7E15602C7E005010E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7F79E8015602C7E005010E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7F79E8215602C7E005010E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7F79E8615602C7E005010E7 /* DarkPagination-Info.plist */ = {isa = PBXFileReference; path = "DarkPagination-Info.plist"; sourceTree = "<group>"; };
+		F7F79E8615602C7E005010E7 /* DarkPagination-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DarkPagination-Info.plist"; sourceTree = "<group>"; };
 		F7F79E8815602C7E005010E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7F79E8A15602C7E005010E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7F79E8C15602C7E005010E7 /* DarkPagination-Prefix.pch */ = {isa = PBXFileReference; path = "DarkPagination-Prefix.pch"; sourceTree = "<group>"; };
-		F7F79E8D15602C7E005010E7 /* DTSAppDelegate.h */ = {isa = PBXFileReference; path = DTSAppDelegate.h; sourceTree = "<group>"; };
+		F7F79E8C15602C7E005010E7 /* DarkPagination-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DarkPagination-Prefix.pch"; sourceTree = "<group>"; };
+		F7F79E8D15602C7E005010E7 /* DTSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTSAppDelegate.h; sourceTree = "<group>"; };
 		F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSAppDelegate.m; sourceTree = "<group>"; };
-		F7F79E9015602C7E005010E7 /* DTSViewController.h */ = {isa = PBXFileReference; path = DTSViewController.h; sourceTree = "<group>"; };
-		F7F79E9115602C7E005010E7 /* DTSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSViewController.m; sourceTree = "<group>"; };
-		F7F79E9415602C7E005010E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTSViewController.xib; sourceTree = "<group>"; };
+		F7F79ECD15602CBD005010E7 /* DTSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSRootViewController.h; sourceTree = "<group>"; };
+		F7F79ECE15602CBD005010E7 /* DTSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSRootViewController.m; sourceTree = "<group>"; };
+		F7F79ECF15602CBD005010E7 /* DTSDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSDataViewController.h; sourceTree = "<group>"; };
+		F7F79ED015602CBD005010E7 /* DTSDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSDataViewController.m; sourceTree = "<group>"; };
+		F7F79ED115602CBD005010E7 /* DTSModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSModelController.h; sourceTree = "<group>"; };
+		F7F79ED215602CBD005010E7 /* DTSModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSModelController.m; sourceTree = "<group>"; };
+		F7F79ED615603121005010E7 /* DTSBlankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSBlankViewController.h; sourceTree = "<group>"; };
+		F7F79ED715603121005010E7 /* DTSBlankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSBlankViewController.m; sourceTree = "<group>"; };
+		F7F79ED91560320A005010E7 /* DTSPagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSPagedViewController.h; sourceTree = "<group>"; };
+		F7F79EDA1560320A005010E7 /* DTSPagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSPagedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +89,17 @@
 			children = (
 				F7F79E8D15602C7E005010E7 /* DTSAppDelegate.h */,
 				F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */,
-				F7F79E9015602C7E005010E7 /* DTSViewController.h */,
-				F7F79E9115602C7E005010E7 /* DTSViewController.m */,
-				F7F79E9315602C7E005010E7 /* DTSViewController.xib */,
+				F7F79ECD15602CBD005010E7 /* DTSRootViewController.h */,
+				F7F79ECE15602CBD005010E7 /* DTSRootViewController.m */,
+				F7F79ED115602CBD005010E7 /* DTSModelController.h */,
+				F7F79ED215602CBD005010E7 /* DTSModelController.m */,
 				F7F79E8515602C7E005010E7 /* Supporting Files */,
+				F7F79ED91560320A005010E7 /* DTSPagedViewController.h */,
+				F7F79EDA1560320A005010E7 /* DTSPagedViewController.m */,
+				F7F79ED615603121005010E7 /* DTSBlankViewController.h */,
+				F7F79ED715603121005010E7 /* DTSBlankViewController.m */,
+				F7F79ECF15602CBD005010E7 /* DTSDataViewController.h */,
+				F7F79ED015602CBD005010E7 /* DTSDataViewController.m */,
 			);
 			path = DarkPagination;
 			sourceTree = "<group>";
@@ -151,7 +168,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F79E8915602C7E005010E7 /* InfoPlist.strings in Resources */,
-				F7F79E9515602C7E005010E7 /* DTSViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +180,11 @@
 			files = (
 				F7F79E8B15602C7E005010E7 /* main.m in Sources */,
 				F7F79E8F15602C7E005010E7 /* DTSAppDelegate.m in Sources */,
-				F7F79E9215602C7E005010E7 /* DTSViewController.m in Sources */,
+				F7F79ED315602CBD005010E7 /* DTSRootViewController.m in Sources */,
+				F7F79ED415602CBD005010E7 /* DTSDataViewController.m in Sources */,
+				F7F79ED515602CBD005010E7 /* DTSModelController.m in Sources */,
+				F7F79ED815603121005010E7 /* DTSBlankViewController.m in Sources */,
+				F7F79EDB1560320B005010E7 /* DTSPagedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +197,6 @@
 				F7F79E8815602C7E005010E7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F7F79E9315602C7E005010E7 /* DTSViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7F79E9415602C7E005010E7 /* en */,
-			);
-			name = DTSViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,10 +250,12 @@
 		F7F79E9915602C7E005010E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DarkPagination/DarkPagination-Prefix.pch";
 				INFOPLIST_FILE = "DarkPagination/DarkPagination-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
