@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7F79E7F15602C7E005010E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F79E7E15602C7E005010E7 /* UIKit.framework */; };
+		F7F79E8115602C7E005010E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F79E8015602C7E005010E7 /* Foundation.framework */; };
+		F7F79E8315602C7E005010E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F79E8215602C7E005010E7 /* CoreGraphics.framework */; };
+		F7F79E8915602C7E005010E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7F79E8715602C7E005010E7 /* InfoPlist.strings */; };
+		F7F79E8B15602C7E005010E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E8A15602C7E005010E7 /* main.m */; };
+		F7F79E8F15602C7E005010E7 /* DTSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */; };
+		F7F79E9215602C7E005010E7 /* DTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F79E9115602C7E005010E7 /* DTSViewController.m */; };
+		F7F79E9515602C7E005010E7 /* DTSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7F79E9315602C7E005010E7 /* DTSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7F79E7A15602C7E005010E7 /* DarkPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F79E7E15602C7E005010E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7F79E8015602C7E005010E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7F79E8215602C7E005010E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7F79E8615602C7E005010E7 /* DarkPagination-Info.plist */ = {isa = PBXFileReference; path = "DarkPagination-Info.plist"; sourceTree = "<group>"; };
+		F7F79E8815602C7E005010E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7F79E8A15602C7E005010E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F79E8C15602C7E005010E7 /* DarkPagination-Prefix.pch */ = {isa = PBXFileReference; path = "DarkPagination-Prefix.pch"; sourceTree = "<group>"; };
+		F7F79E8D15602C7E005010E7 /* DTSAppDelegate.h */ = {isa = PBXFileReference; path = DTSAppDelegate.h; sourceTree = "<group>"; };
+		F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSAppDelegate.m; sourceTree = "<group>"; };
+		F7F79E9015602C7E005010E7 /* DTSViewController.h */ = {isa = PBXFileReference; path = DTSViewController.h; sourceTree = "<group>"; };
+		F7F79E9115602C7E005010E7 /* DTSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSViewController.m; sourceTree = "<group>"; };
+		F7F79E9415602C7E005010E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DTSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F79E7715602C7E005010E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F79E7F15602C7E005010E7 /* UIKit.framework in Frameworks */,
+				F7F79E8115602C7E005010E7 /* Foundation.framework in Frameworks */,
+				F7F79E8315602C7E005010E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F79E6F15602C7E005010E7 = {
+			isa = PBXGroup;
+			children = (
+				F7F79E8415602C7E005010E7 /* DarkPagination */,
+				F7F79E7D15602C7E005010E7 /* Frameworks */,
+				F7F79E7B15602C7E005010E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F79E7B15602C7E005010E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F79E7A15602C7E005010E7 /* DarkPagination.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F79E7D15602C7E005010E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F79E7E15602C7E005010E7 /* UIKit.framework */,
+				F7F79E8015602C7E005010E7 /* Foundation.framework */,
+				F7F79E8215602C7E005010E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F79E8415602C7E005010E7 /* DarkPagination */ = {
+			isa = PBXGroup;
+			children = (
+				F7F79E8D15602C7E005010E7 /* DTSAppDelegate.h */,
+				F7F79E8E15602C7E005010E7 /* DTSAppDelegate.m */,
+				F7F79E9015602C7E005010E7 /* DTSViewController.h */,
+				F7F79E9115602C7E005010E7 /* DTSViewController.m */,
+				F7F79E9315602C7E005010E7 /* DTSViewController.xib */,
+				F7F79E8515602C7E005010E7 /* Supporting Files */,
+			);
+			path = DarkPagination;
+			sourceTree = "<group>";
+		};
+		F7F79E8515602C7E005010E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F79E8615602C7E005010E7 /* DarkPagination-Info.plist */,
+				F7F79E8715602C7E005010E7 /* InfoPlist.strings */,
+				F7F79E8A15602C7E005010E7 /* main.m */,
+				F7F79E8C15602C7E005010E7 /* DarkPagination-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F79E7915602C7E005010E7 /* DarkPagination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F79E9815602C7E005010E7 /* Build configuration list for PBXNativeTarget "DarkPagination" */;
+			buildPhases = (
+				F7F79E7615602C7E005010E7 /* Sources */,
+				F7F79E7715602C7E005010E7 /* Frameworks */,
+				F7F79E7815602C7E005010E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkPagination;
+			productName = DarkPagination;
+			productReference = F7F79E7A15602C7E005010E7 /* DarkPagination.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F79E7115602C7E005010E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DTS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Cross Forward Consulting, LLC";
+			};
+			buildConfigurationList = F7F79E7415602C7E005010E7 /* Build configuration list for PBXProject "DarkPagination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7F79E6F15602C7E005010E7;
+			productRefGroup = F7F79E7B15602C7E005010E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F79E7915602C7E005010E7 /* DarkPagination */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F79E7815602C7E005010E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F79E8915602C7E005010E7 /* InfoPlist.strings in Resources */,
+				F7F79E9515602C7E005010E7 /* DTSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F79E7615602C7E005010E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F79E8B15602C7E005010E7 /* main.m in Sources */,
+				F7F79E8F15602C7E005010E7 /* DTSAppDelegate.m in Sources */,
+				F7F79E9215602C7E005010E7 /* DTSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7F79E8715602C7E005010E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F79E8815602C7E005010E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7F79E9315602C7E005010E7 /* DTSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F79E9415602C7E005010E7 /* en */,
+			);
+			name = DTSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F79E9615602C7E005010E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7F79E9715602C7E005010E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7F79E9915602C7E005010E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DarkPagination/DarkPagination-Prefix.pch";
+				INFOPLIST_FILE = "DarkPagination/DarkPagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7F79E9A15602C7E005010E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DarkPagination/DarkPagination-Prefix.pch";
+				INFOPLIST_FILE = "DarkPagination/DarkPagination-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F79E7415602C7E005010E7 /* Build configuration list for PBXProject "DarkPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F79E9615602C7E005010E7 /* Debug */,
+				F7F79E9715602C7E005010E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F79E9815602C7E005010E7 /* Build configuration list for PBXNativeTarget "DarkPagination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F79E9915602C7E005010E7 /* Debug */,
+				F7F79E9A15602C7E005010E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F79E7115602C7E005010E7 /* Project object */;
+}
